@@ -1,0 +1,49 @@
+.daily-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 22vh;
+  max-width: 25.25em;
+  min-width: 3em;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(45, 53, 80, 0.795);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.daily-details-block {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.034);
+  width: 2.7em;
+  height: 5.7em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.daily-details-block-selected {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(34, 36, 36, 0.5);
+  width: 2.7em;
+  height: 5.7em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+@media (max-width: 25.25em) {
+  .daily-details {
+    margin: 2% 0 !important;
+  }
+}

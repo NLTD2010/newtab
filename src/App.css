@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  max-height: 100%;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.weather-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50%;
+}
+
+@media (max-width: 770px) {
+  .start-container {
+    margin: 0 4%;
+  }
+
+  .weather-bottom {
+    margin: 0 4%;
+  }
+}
