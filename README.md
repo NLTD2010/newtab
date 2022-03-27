@@ -9,7 +9,7 @@ Everything you need to build a Svelte project, powered by [`React`](https://gith
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 ```bash
-> npm install 
+npm install 
 ```
 ## Developing
 
