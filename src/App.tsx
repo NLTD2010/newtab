@@ -58,7 +58,7 @@ function App() {
         if (background) {
           setBackground(background);
         } else {
-          setBackground("https://i.imgur.com/hj2L1tO.jpg");
+          setBackground("https://raw.githubusercontent.com/NLTD2010/newtab/main/public/wallpapers/49.jpg");
         }
         setIsFetching(false);
       } catch (error) {
